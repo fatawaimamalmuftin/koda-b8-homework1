@@ -10,7 +10,8 @@ loop@{ shape: diamond, label: "i < 5"}
 hj@{ shape: lean-r, label: "'{ j }'"}
 selesai@{ shape: doublecircle, label: "End"}
 
-mulai-->i-->j-->do-->i+-->loop--true-->hj-->selesai
-loop--false-->j
+mulai-->i-->j-->do-->hj-->i+-->
+loop--true-->do
+loop--false-->selesai
 
 ```
