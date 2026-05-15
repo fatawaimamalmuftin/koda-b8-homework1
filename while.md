@@ -10,8 +10,10 @@ i+@{ shape: rect, label: "i decrement"}
 hj@{ shape: lean-r, label: "'{ j } '"}
 selesai@{ shape: doublecircle, label: "End"}
 
-mulai-->i-->j-->loop--false-->j+
-loop--true-->hj-->selesai
-j+-->i+-->loop
+mulai-->i-->j-->loop--true-->j+-->hj-->i+-->loop
+loop--false-->selesai
+
+
+
 
 ```
